@@ -4,7 +4,7 @@
 # compile CXX with /opt/homebrew/opt/llvm/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/leohu/Documents/Projects/blockchain/external/asio/include -I/Users/leohu/Documents/Projects/blockchain/include
+CXX_INCLUDES = -I/Users/leohu/Documents/Projects/blockchain/external/asio/include -I/Users/leohu/Documents/Projects/blockchain/include/networking
 
 CXX_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk
 

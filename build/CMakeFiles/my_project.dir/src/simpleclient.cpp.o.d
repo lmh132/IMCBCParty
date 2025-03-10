@@ -1,6 +1,6 @@
 CMakeFiles/my_project.dir/src/simpleclient.cpp.o: \
   /Users/leohu/Documents/Projects/blockchain/src/simpleclient.cpp \
-  /Users/leohu/Documents/Projects/blockchain/include/net_common.h \
+  /Users/leohu/Documents/Projects/blockchain/include/networking/net_common.h \
   /opt/homebrew/Cellar/llvm/19.1.7_1/bin/../include/c++/v1/memory \
   /opt/homebrew/Cellar/llvm/19.1.7_1/bin/../include/c++/v1/__config \
   /opt/homebrew/Cellar/llvm/19.1.7_1/bin/../include/c++/v1/__config_site \
@@ -1270,4 +1270,4 @@ CMakeFiles/my_project.dir/src/simpleclient.cpp.o: \
   /opt/homebrew/opt/asio/include/asio/impl/write_at.hpp \
   /opt/homebrew/opt/asio/include/asio/ts/buffer.hpp \
   /opt/homebrew/opt/asio/include/asio/ts/internet.hpp \
-  /Users/leohu/Documents/Projects/blockchain/include/net_message.h
+  /Users/leohu/Documents/Projects/blockchain/include/networking/net_message.h
