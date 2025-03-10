@@ -50,3 +50,17 @@ struct message {
         return msg;
     }
 };
+
+template<typename T>
+class connection;
+
+template<typename T>
+struct owned_message {
+    message<T> msg;
+    std::shared_ptr<connection<T>> remote = nullptr;
+
+    friend std::ostream& operator << (std::ostream& os, const owned_message<T>& msg) {
+        os << msg.msg;
+        return os;
+    }
+};
