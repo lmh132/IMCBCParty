@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/leohu/Documents/Projects/blockchain
+CMAKE_SOURCE_DIR = /Users/taeinkim/IMCBCParty
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/leohu/Documents/Projects/blockchain/build
+CMAKE_BINARY_DIR = /Users/taeinkim/IMCBCParty/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/my_project.dir/depend.make
@@ -73,32 +73,32 @@ CMakeFiles/my_project.dir/codegen:
 .PHONY : CMakeFiles/my_project.dir/codegen
 
 CMakeFiles/my_project.dir/src/main.cpp.o: CMakeFiles/my_project.dir/flags.make
-CMakeFiles/my_project.dir/src/main.cpp.o: /Users/leohu/Documents/Projects/blockchain/src/main.cpp
+CMakeFiles/my_project.dir/src/main.cpp.o: /Users/taeinkim/IMCBCParty/src/main.cpp
 CMakeFiles/my_project.dir/src/main.cpp.o: CMakeFiles/my_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leohu/Documents/Projects/blockchain/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_project.dir/src/main.cpp.o"
-	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_project.dir/src/main.cpp.o -MF CMakeFiles/my_project.dir/src/main.cpp.o.d -o CMakeFiles/my_project.dir/src/main.cpp.o -c /Users/leohu/Documents/Projects/blockchain/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/taeinkim/IMCBCParty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_project.dir/src/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_project.dir/src/main.cpp.o -MF CMakeFiles/my_project.dir/src/main.cpp.o.d -o CMakeFiles/my_project.dir/src/main.cpp.o -c /Users/taeinkim/IMCBCParty/src/main.cpp
 
 CMakeFiles/my_project.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_project.dir/src/main.cpp.i"
-	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leohu/Documents/Projects/blockchain/src/main.cpp > CMakeFiles/my_project.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/taeinkim/IMCBCParty/src/main.cpp > CMakeFiles/my_project.dir/src/main.cpp.i
 
 CMakeFiles/my_project.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_project.dir/src/main.cpp.s"
-	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leohu/Documents/Projects/blockchain/src/main.cpp -o CMakeFiles/my_project.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/taeinkim/IMCBCParty/src/main.cpp -o CMakeFiles/my_project.dir/src/main.cpp.s
 
 CMakeFiles/my_project.dir/src/simpleclient.cpp.o: CMakeFiles/my_project.dir/flags.make
-CMakeFiles/my_project.dir/src/simpleclient.cpp.o: /Users/leohu/Documents/Projects/blockchain/src/simpleclient.cpp
+CMakeFiles/my_project.dir/src/simpleclient.cpp.o: /Users/taeinkim/IMCBCParty/src/simpleclient.cpp
 CMakeFiles/my_project.dir/src/simpleclient.cpp.o: CMakeFiles/my_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leohu/Documents/Projects/blockchain/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_project.dir/src/simpleclient.cpp.o"
-	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_project.dir/src/simpleclient.cpp.o -MF CMakeFiles/my_project.dir/src/simpleclient.cpp.o.d -o CMakeFiles/my_project.dir/src/simpleclient.cpp.o -c /Users/leohu/Documents/Projects/blockchain/src/simpleclient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/taeinkim/IMCBCParty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_project.dir/src/simpleclient.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_project.dir/src/simpleclient.cpp.o -MF CMakeFiles/my_project.dir/src/simpleclient.cpp.o.d -o CMakeFiles/my_project.dir/src/simpleclient.cpp.o -c /Users/taeinkim/IMCBCParty/src/simpleclient.cpp
 
 CMakeFiles/my_project.dir/src/simpleclient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_project.dir/src/simpleclient.cpp.i"
-	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leohu/Documents/Projects/blockchain/src/simpleclient.cpp > CMakeFiles/my_project.dir/src/simpleclient.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/taeinkim/IMCBCParty/src/simpleclient.cpp > CMakeFiles/my_project.dir/src/simpleclient.cpp.i
 
 CMakeFiles/my_project.dir/src/simpleclient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_project.dir/src/simpleclient.cpp.s"
-	/opt/homebrew/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leohu/Documents/Projects/blockchain/src/simpleclient.cpp -o CMakeFiles/my_project.dir/src/simpleclient.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/taeinkim/IMCBCParty/src/simpleclient.cpp -o CMakeFiles/my_project.dir/src/simpleclient.cpp.s
 
 # Object files for target my_project
 my_project_OBJECTS = \
@@ -112,7 +112,7 @@ my_project: CMakeFiles/my_project.dir/src/main.cpp.o
 my_project: CMakeFiles/my_project.dir/src/simpleclient.cpp.o
 my_project: CMakeFiles/my_project.dir/build.make
 my_project: CMakeFiles/my_project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/leohu/Documents/Projects/blockchain/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable my_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/taeinkim/IMCBCParty/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable my_project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -124,6 +124,6 @@ CMakeFiles/my_project.dir/clean:
 .PHONY : CMakeFiles/my_project.dir/clean
 
 CMakeFiles/my_project.dir/depend:
-	cd /Users/leohu/Documents/Projects/blockchain/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/leohu/Documents/Projects/blockchain /Users/leohu/Documents/Projects/blockchain /Users/leohu/Documents/Projects/blockchain/build /Users/leohu/Documents/Projects/blockchain/build /Users/leohu/Documents/Projects/blockchain/build/CMakeFiles/my_project.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/taeinkim/IMCBCParty/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/taeinkim/IMCBCParty /Users/taeinkim/IMCBCParty /Users/taeinkim/IMCBCParty/build /Users/taeinkim/IMCBCParty/build /Users/taeinkim/IMCBCParty/build/CMakeFiles/my_project.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/my_project.dir/depend
 

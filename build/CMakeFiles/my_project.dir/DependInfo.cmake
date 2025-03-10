@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/leohu/Documents/Projects/blockchain/src/main.cpp" "CMakeFiles/my_project.dir/src/main.cpp.o" "gcc" "CMakeFiles/my_project.dir/src/main.cpp.o.d"
-  "/Users/leohu/Documents/Projects/blockchain/src/simpleclient.cpp" "CMakeFiles/my_project.dir/src/simpleclient.cpp.o" "gcc" "CMakeFiles/my_project.dir/src/simpleclient.cpp.o.d"
+  "/Users/taeinkim/IMCBCParty/src/main.cpp" "CMakeFiles/my_project.dir/src/main.cpp.o" "gcc" "CMakeFiles/my_project.dir/src/main.cpp.o.d"
+  "/Users/taeinkim/IMCBCParty/src/simpleclient.cpp" "CMakeFiles/my_project.dir/src/simpleclient.cpp.o" "gcc" "CMakeFiles/my_project.dir/src/simpleclient.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
